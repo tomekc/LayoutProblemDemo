@@ -12,9 +12,14 @@
 		401CCF7A1FAA52DF0071D08C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401CCF781FAA52DF0071D08C /* Main.storyboard */; };
 		401CCF7C1FAA52DF0071D08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401CCF7B1FAA52DF0071D08C /* Assets.xcassets */; };
 		401CCF7F1FAA52DF0071D08C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401CCF7D1FAA52DF0071D08C /* LaunchScreen.storyboard */; };
+		401CCF871FAA54190071D08C /* DelayedTimePickerCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = 401CCF861FAA54190071D08C /* DelayedTimePickerCell.xml */; };
+		401CCF891FAA541D0071D08C /* DelayedTimePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401CCF881FAA541D0071D08C /* DelayedTimePickerCell.swift */; };
+		B68F9D62D6695400EB7C1D9B /* Pods_LayoutProblemDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0FB628506218CC3BC743A3 /* Pods_LayoutProblemDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F9250594EE4A4D23FC43BBE /* Pods-LayoutProblemDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayoutProblemDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LayoutProblemDemo/Pods-LayoutProblemDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E0FB628506218CC3BC743A3 /* Pods_LayoutProblemDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LayoutProblemDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		401CCF711FAA52DF0071D08C /* LayoutProblemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutProblemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		401CCF741FAA52DF0071D08C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		401CCF761FAA52DF0071D08C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		401CCF7B1FAA52DF0071D08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		401CCF7E1FAA52DF0071D08C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		401CCF801FAA52DF0071D08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401CCF861FAA54190071D08C /* DelayedTimePickerCell.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = DelayedTimePickerCell.xml; sourceTree = "<group>"; };
+		401CCF881FAA541D0071D08C /* DelayedTimePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayedTimePickerCell.swift; sourceTree = "<group>"; };
+		735B375C61797AED00CD721D /* Pods-LayoutProblemDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayoutProblemDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LayoutProblemDemo/Pods-LayoutProblemDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68F9D62D6695400EB7C1D9B /* Pods_LayoutProblemDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1E95F034586D0156F5CFDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F9250594EE4A4D23FC43BBE /* Pods-LayoutProblemDemo.debug.xcconfig */,
+				735B375C61797AED00CD721D /* Pods-LayoutProblemDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		401CCF681FAA52DF0071D08C = {
 			isa = PBXGroup;
 			children = (
 				401CCF731FAA52DF0071D08C /* LayoutProblemDemo */,
 				401CCF721FAA52DF0071D08C /* Products */,
+				1E1E95F034586D0156F5CFDC /* Pods */,
+				51820168EB003D48F6C0FA0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +74,8 @@
 		401CCF731FAA52DF0071D08C /* LayoutProblemDemo */ = {
 			isa = PBXGroup;
 			children = (
+				401CCF881FAA541D0071D08C /* DelayedTimePickerCell.swift */,
+				401CCF861FAA54190071D08C /* DelayedTimePickerCell.xml */,
 				401CCF741FAA52DF0071D08C /* AppDelegate.swift */,
 				401CCF761FAA52DF0071D08C /* ViewController.swift */,
 				401CCF781FAA52DF0071D08C /* Main.storyboard */,
@@ -64,6 +86,14 @@
 			path = LayoutProblemDemo;
 			sourceTree = "<group>";
 		};
+		51820168EB003D48F6C0FA0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FB628506218CC3BC743A3 /* Pods_LayoutProblemDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 401CCF831FAA52DF0071D08C /* Build configuration list for PBXNativeTarget "LayoutProblemDemo" */;
 			buildPhases = (
+				6AED2C41D87C22C0A3DFF543 /* [CP] Check Pods Manifest.lock */,
 				401CCF6D1FAA52DF0071D08C /* Sources */,
 				401CCF6E1FAA52DF0071D08C /* Frameworks */,
 				401CCF6F1FAA52DF0071D08C /* Resources */,
+				80C25CBE02D6880A6CDF1A20 /* [CP] Embed Pods Frameworks */,
+				C5A0593C1249561E6EEA5D02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				401CCF7F1FAA52DF0071D08C /* LaunchScreen.storyboard in Resources */,
+				401CCF871FAA54190071D08C /* DelayedTimePickerCell.xml in Resources */,
 				401CCF7C1FAA52DF0071D08C /* Assets.xcassets in Resources */,
 				401CCF7A1FAA52DF0071D08C /* Main.storyboard in Resources */,
 			);
@@ -131,12 +165,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6AED2C41D87C22C0A3DFF543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LayoutProblemDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C25CBE02D6880A6CDF1A20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LayoutProblemDemo/Pods-LayoutProblemDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Layout/Layout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Layout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LayoutProblemDemo/Pods-LayoutProblemDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A0593C1249561E6EEA5D02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LayoutProblemDemo/Pods-LayoutProblemDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		401CCF6D1FAA52DF0071D08C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				401CCF771FAA52DF0071D08C /* ViewController.swift in Sources */,
+				401CCF891FAA541D0071D08C /* DelayedTimePickerCell.swift in Sources */,
 				401CCF751FAA52DF0071D08C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +361,7 @@
 		};
 		401CCF841FAA52DF0071D08C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9250594EE4A4D23FC43BBE /* Pods-LayoutProblemDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +377,7 @@
 		};
 		401CCF851FAA52DF0071D08C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735B375C61797AED00CD721D /* Pods-LayoutProblemDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

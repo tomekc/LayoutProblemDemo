@@ -1,0 +1,41 @@
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
+
+#CocoaPods
+Pods
+
+#CI
+artifacts/
+build/
+
+*.log
+relnotes.md
+builds
+R.generated.swift
+
+.env
+
+# Build products
+BackOffice.ipa
+BackOffice.app.dSYM.zip
+fastlane/report.xml
+tmp/
+
+# Carthage  
+Carthage/

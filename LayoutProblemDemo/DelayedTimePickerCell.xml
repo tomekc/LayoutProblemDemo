@@ -1,0 +1,39 @@
+<UITableViewCell
+    height="auto + 20"
+    width="auto"
+    reuseIdentifier="DelayedTimePicker"
+    selectedBackgroundView.backgroundColor="colors.red"
+    style="default"
+    textLabel.highlightedTextColor="white"
+    >
+    
+    <UISegmentedControl items="'Preset', 'Custom'"
+    top="15"
+    left="50% - (width / 2)"
+    />
+    
+    <UIScrollView
+        top="previous.bottom + 10"
+        height="216"
+        width="100%"
+        contentSize.width="200%"
+        isPagingEnabled="true"
+        showsHorizontalScrollIndicator="false"
+        >
+        
+        <UIDatePicker
+        width="100%"
+        height="auto"
+        left="0"
+        top="0"
+        />
+        
+        <UIView width="100%"
+            left="previous.right + 0"
+            height="auto"
+            backgroundColor="#FFE1FE"
+            />
+    </UIScrollView>
+    
+</UITableViewCell>
+
